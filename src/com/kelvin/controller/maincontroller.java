@@ -1,8 +1,8 @@
-package com.avinash.controller;
+package com.kelvin.controller;
 
-import com.avinash.Main;
-import com.avinash.entity.category;
-import com.avinash.entity.item;
+import com.kelvin.Main;
+import com.kelvin.entity.category;
+import com.kelvin.entity.item;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -35,7 +35,7 @@ public class maincontroller implements Initializable {
     public TableColumn<item, String> col02;
     public TableColumn<item, String> col03;
     public TableColumn<item, String> col04;
-    public com.avinash.entity.category[] category;
+    public com.kelvin.entity.category[] category;
 
     private ObservableList<item> items;
     private ObservableList<category> categories;

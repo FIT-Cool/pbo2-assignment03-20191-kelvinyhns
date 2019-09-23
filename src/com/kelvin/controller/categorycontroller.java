@@ -1,6 +1,6 @@
-package com.avinash.controller;
+package com.kelvin.controller;
 
-import com.avinash.entity.category;
+import com.kelvin.entity.category;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -16,7 +16,7 @@ public class categorycontroller implements Initializable {
     public TableView<category> tabCategory;
     public TableColumn<category,String> col01cat;
     public TableColumn<category,String>  col02cat;
-    public com.avinash.controller.maincontroller maincontroller;
+    public com.kelvin.controller.maincontroller maincontroller;
     public Button savebtn;
     public ObservableList<category> categories ;
 

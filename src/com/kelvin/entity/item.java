@@ -1,4 +1,4 @@
-package com.avinash.entity;
+package com.kelvin.entity;
 
 import java.time.LocalDate;
 
@@ -25,11 +25,11 @@ public class item {
         this.name = name;
     }
 
-    public com.avinash.entity.category getCategory() {
+    public com.kelvin.entity.category getCategory() {
         return category;
     }
 
-    public void setCategory(com.avinash.entity.category category) {
+    public void setCategory(com.kelvin.entity.category category) {
         this.category = category;
     }
 

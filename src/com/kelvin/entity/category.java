@@ -1,4 +1,4 @@
-package com.avinash.entity;
+package com.kelvin.entity;
 
 public class category {
     public Integer id;
